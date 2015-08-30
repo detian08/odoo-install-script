@@ -34,6 +34,7 @@ OE_CONFIG="$OE_USER-server"
 #--------------------------------------------------
 echo -e "\n---- Update Server ----"
 sudo apt-get update
+sudo apt-get install mc sudo nano git -y
 sudo apt-get upgrade -y
 
 #--------------------------------------------------
